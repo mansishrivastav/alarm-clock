@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background: linear-gradient(to right, #6c5ce7, #a29bfe);
+}
+.header {
+  text-align: center;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+.container,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  color: white;
+}
+.wrapper {
+  margin: auto;
+  margin-top: 5rem;
+  width: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem;
+  padding: 2rem 0;
+  background-color: white;
+}
+.wrapper .set-time {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+#timer-display {
+  padding: 1rem;
+}
+.column {
+  flex-direction: row;
+  padding: 0 1rem;
+}
+.set-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.set-time select {
+  padding: 0.5rem;
+}
+.set-alarm {
+  margin-top: 1rem;
+  text-align: center;
+}
+.set-alarm button {
+  margin-top: 0.5rem;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 3.5rem;
+}
+.display {
+  margin-top: 5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  font-weight: 700;
+  background: #6c5ce7;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
